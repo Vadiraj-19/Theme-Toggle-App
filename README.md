@@ -1,12 +1,82 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌗 Theme Toggle App
 
-Currently, two official plugins are available:
+A simple React app that allows users to toggle between **Dark Mode** and **Light Mode**, with the selected theme preference **persisted in localStorage**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Features
 
-## Expanding the ESLint configuration
+- 🌓 Toggle between Dark and Light themes
+- 💾 Theme preference saved in browser's `localStorage`
+- ⚡ Instant and smooth UI transitions using Tailwind CSS
+- 🧠 Built with React and `useState`, `useEffect` hooks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Preview
+
+https://private-user-images.githubusercontent.com/143392997/470337568-18d4e94a-6f9d-493f-bc22-fb8028b97d3e.mp4  
+
+
+
+
+## 🛠️ Tech Stack
+
+- [React.js](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- HTML5, JavaScript (ES6+)
+
+---
+
+## 📦 Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Vadiraj-19/theme-toggle.git
+   cd theme-toggle
+````
+
+2. **Install Dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the App**
+
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 🧠 How It Works
+
+* On first load, it checks `localStorage` for the last selected theme.
+* The toggle UI uses `flex-row-reverse` for switch-like animation.
+* Clicking the toggle updates state and persists to localStorage.
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+├── App.jsx        # Main logic for theme toggle
+├── index.css      # Tailwind base styles
+└── main.jsx       # React entry point
+```
+
+---
+
+## 🙌 Author
+
+Made with ❤️ by [Vadiraj Betageri](https://github.com/Vadiraj-19)
+
+---
+
+## 📃 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+```
+
