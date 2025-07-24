@@ -33,7 +33,7 @@ https://private-user-images.githubusercontent.com/143392997/470337568-18d4e94a-6
    ```bash
    git clone https://github.com/Vadiraj-19/theme-toggle.git
    cd theme-toggle
-````
+
 
 2. **Install Dependencies**
 
@@ -47,7 +47,7 @@ https://private-user-images.githubusercontent.com/143392997/470337568-18d4e94a-6
    npm run dev
    ```
 
----
+
 
 ## 🧠 How It Works
 
